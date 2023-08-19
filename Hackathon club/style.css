@@ -1,0 +1,284 @@
+.rahul:hover
+    {transform:scale(1.05);
+        transition: 0.3s;   /*smooth*/
+        filter: drop-shadow(0 0 10px #333);
+    }
+
+
+/*To add Scroll behaviour*/
+html{
+    scroll-behavior: smooth;
+}
+
+/* Global Styles */
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    
+  }
+  
+  .container {
+    max-width: 2500px;
+    margin: 0 auto;
+    padding: 0 20px;
+ 
+  }
+  .container h1{
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+  }
+  
+  /* Navigation */
+  nav {
+    background-color: #333;
+    color: #171212;
+    
+    padding: 20px 0;
+    text-align: center;
+    
+  }
+  nav h1{
+    font-size: 80px;
+    text-shadow: 2px 2px 2px #e48888;
+  }
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+    
+  }
+  
+  nav ul li a {
+    color: #d7d2ee;
+    text-decoration: none;
+  }
+  
+  /* Hero Section */
+  .hero {
+    background-color: #877777;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  /* Domains Section */
+  .domains {
+    padding: 80px 0;
+    
+
+  }
+  
+  .domains h2 {
+    font-size: 32px;
+    text-align: center;
+    
+  }
+  
+  .domain-card {
+    background-color: #948c8c;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+  }
+  
+  /* Events Section */
+  .events {
+    background-color: #e69e41;
+    color: rgb(0, 0, 0);
+    padding: 80px 0;
+  }
+  
+  .events h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+  
+  .card{
+    background-color: #70d0d7;
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  /* Team Section */
+  .team {
+    padding: 80px 0;
+    background-color: #c0bcbc;
+  }
+  
+  .team h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+  
+  .team-member {
+    text-align: center;
+  }
+  
+  .team-member img {
+    max-width: 200px;
+    border-radius: 50%;
+  }
+  
+  /* Contact Section */
+  .contact {
+    background-color: #6f5656;
+    padding: 80px 0;
+  }
+  
+  .contact h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+  
+  .contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .contact input,
+  .contact textarea {
+    margin-bottom: 20px;
+    padding: 10px;
+  }
+  
+  .contact button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .cta-btn {
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Green */
+  .cta-btn {
+    border-color: #04AA6D;
+    color: green;
+  }
+  
+  .cta-btn:hover {
+    background-color: yellowgreen;
+    color: white;
+  }
+  
+  .cta-btn {
+    border-radius: 5px;
+  }
+
+  
+
+ .wrap a{
+    border: 2px solid black;
+    background-color: white;
+    color: black;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    
+   
+}
+ .wrap a:hover{
+    background-color: red;
+}
+
+.upcomming {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+ 
+  }
+
+  #upcommings{
+    background-color: #969695;
+    color: rgb(0, 0, 0);
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  .pyth h3 {
+    font-size: 32px;
+    text-align: center;
+    background-color: #e48888;
+  }
+  #achieve{
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 40px 0;
+    text-align: center;
+  }
+  .ACHIEVE{
+    font-size: 32px;
+    text-align: center;
+    background-color: #ffffff;
+  }
+.achieve{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.sih{
+width: 35%;   /* 100ke 3 division and 4% remaining for gap*/
+position: relative;  /**/
+margin-bottom: 20px;
+border-radius: 10px;/*corner round*/
+overflow: hidden;
+}
+
+.sih img{
+    
+        height:auto;
+        width: 100%;
+        
+        object-fit: cover;
+        box-shadow: 0 0 20px #333;
+    }
+.sih:hover{
+        transform:scale(1.03);
+        transition: 0.3s;   /*smooth*/
+        filter: drop-shadow(0 0 10px #333);   /*jassa click karu tasa background la shadow generate hoti*/
+    }
+
+.sih:hover img{
+        
+            filter: grayscale(0%);
+    }
+.text{
+        
+        font-size: 30px;
+        text-align: center;
+        margin:auto;
+        padding:auto;
+
+        
+    }
+
+    
